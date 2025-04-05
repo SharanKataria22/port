@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharan Kataria</title>
+    <link rel="icon" type="image/png" href="assets/david.png" />
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container header-container">
+        <a href="#home" class="logo"></a>
+
+        <nav class="nav-desktop">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+      </div>
+
+      <div class="container">
+        <nav class="nav-mobile" id="mobileMenu">
+          <a href="#home" onclick="closeMenu()">Home</a>
+          <a href="#about" onclick="closeMenu()">About</a>
+          <a href="#services" onclick="closeMenu()">Services</a>
+          <a href="#portfolio" onclick="closeMenu()">Portfolio</a>
+          <a href="#contact" onclick="closeMenu()">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <h2 class="hero-subtitle">Hi, I'm</h2>
+            <h1 class="hero-title">Sharan Kataria</h1>
+            <div class="hero-role">
+              <span>A Graphic And Web Designer</span>
+              <span>From</span>
+              <span class="hero-location">Pakistan</span>
+            </div>
+            <div class="hero-buttons">
+              <a href="#portfolio" class="btn-primary">
+                View My Work
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="ml-2"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+              <a href="#contact" class="btn-outline"> Contact Me </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="profile-image">
+              <img
+                src="assets/sharan.png"
+                alt="Sharan Kataria - Graphic And Web Designer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Me section -->
+      <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/about.jpg" alt="Sharan Kataria">
+                </div>
+                <div class="about-text">
+                    <h3 class="section-title">About Me</h3>
+                    <p>
+                        I’m Sharan Kataria a Graphic and Web Designer from Sukkur IBA University.
+                        With a keen eye for creativity and detail, I specialize in crafting visually appealing designs
+                        and user-friendly web interfaces. My work blends aesthetics with functionality to create impactful
+                        digital experiences.
+                    </p>
+                    
+                    <div class="tabs">
+                        <button class="tab-link active" data-tab="skills">Skills</button>
+                        <button class="tab-link" data-tab="experience">Experience</button>
+                        <button class="tab-link" data-tab="education">Education</button>
+                    </div>
+    
+                    <div id="skills" class="tab-content active">
+                        <div class="skill-item">
+                            <h5 class="skill-name">Branding & Logo Design</h5>
+                            <p class="skill-description">
+                                Creating unique and memorable brand identities that stand out
+                                in the market.
+                            </p>
+                        </div>
+                        <div class="skill-item">
+                            <h5 class="skill-name">UI/UX Design</h5>
+                            <p class="skill-description">
+                                Designing visually appealing and user-friendly interfaces for
+                                websites and applications.
+                            </p>
+                        </div>
+                        <div class="skill-item">
+                            <h5 class="skill-name">Social Media Graphics</h5>
+                            <p class="skill-description">
+                                Crafting eye-catching posts, banners, and advertisements for
+                                various social platforms.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="experience" class="tab-content">
+                      <div class="skill-item">
+                        <h5 class="skill-name">Branding & Logo Design</h5>
+                        <p class="skill-description">
+                            Creating unique and memorable brand identities that stand out
+                            in the market.
+                        </p>
+                    </div>
+                    <div class="skill-item">
+                        <h5 class="skill-name">UI/UX Design</h5>
+                        <p class="skill-description">
+                            Designing visually appealing and user-friendly interfaces for
+                            websites and applications.
+                        </p>
+                    </div>
+                    <div class="skill-item">
+                        <h5 class="skill-name">Social Media Graphics</h5>
+                        <p class="skill-description">
+                            Crafting eye-catching posts, banners, and advertisements for
+                            various social platforms.
+                        </p>
+                    </div>
+                    </div>
+                    <div id="education" class="tab-content">
+                      <div class="skill-item">
+                        <h5 class="skill-name">Branding & Logo Design</h5>
+                        <p class="skill-description">
+                            Creating unique and memorable brand identities that stand out
+                            in the market.
+                        </p>
+                    </div>
+                    <div class="skill-item">
+                        <h5 class="skill-name">UI/UX Design</h5>
+                        <p class="skill-description">
+                            Designing visually appealing and user-friendly interfaces for
+                            websites and applications.
+                        </p>
+                    </div>
+                    <div class="skill-item">
+                        <h5 class="skill-name">Social Media Graphics</h5>
+                        <p class="skill-description">
+                            Crafting eye-catching posts, banners, and advertisements for
+                            various social platforms.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My Services</h2>
+            <p
+              class="section-description"
+              style="color: #a1a1aa; max-width: 36rem; margin: 0 auto 2rem"
+            >
+              I offer a range of creative services to help bring your vision to
+              life and make your brand stand out in the digital landscape.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#a855f7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                  <path d="M7 2v20"></path>
+                  <path d="M21 15V2"></path>
+                  <path d="M18 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"></path>
+                  <path d="M21 15a3 3 0 0 0-3-3"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Branding & Logo Design</h3>
+              <p class="service-description">
+                Creating unique and memorable brand identities that capture the
+                essence of your business and resonate with your target audience.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#3b82f6"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="m18.4 2.7-9.5 9.5c-.4.4-.4 1 0 1.4l2.5 2.5c.4.4 1 .4 1.4 0l9.5-9.5c.4-.4.4-1 0-1.4l-2.5-2.5c-.4-.4-1-.4-1.4 0Z"
+                  ></path>
+                  <path d="m3.7 13.1 5.5 5.5c.4.4 1 .4 1.4 0l2.6-2.6"></path>
+                  <path d="M9.2 17.6 8.2 14l-4.6 3.7"></path>
+                  <path d="m14.5 7.5 2.5 2.5"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">UI/UX Design</h3>
+              <p class="service-description">
+                Designing visually appealing and user-friendly interfaces that
+                enhance user experience and drive engagement with your digital
+                products.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div class="service-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#ec4899"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                </svg>
+              </div>
+              <h3 class="service-title">Social Media Graphics</h3>
+              <p class="service-description">
+                Crafting eye-catching posts, banners, and ads that help your
+                brand stand out on social platforms and capture your audience's
+                attention.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">My Portfolio</h2>
+            <p
+              class="section-description"
+              style="color: #a1a1aa; max-width: 36rem; margin: 0 auto 2rem"
+            >
+              Check out some of my recent work
+            </p>
+          </div>
+
+          <div class="portfolio-grid">
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1600775508114-5c30cf911a40?w=800&q=80"
+                  alt="Brand Identity Design"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Brand Identity Design</h3>
+                <p class="project-description">
+                  Complete brand identity design including logo, color palette,
+                  and typography for a tech startup.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">Branding</span>
+                  <span class="project-tag">Logo Design</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-link">
+                  View Project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=800&q=80"
+                  alt="E-commerce Website UI"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">E-commerce Website UI</h3>
+                <p class="project-description">
+                  Modern and intuitive user interface design for an e-commerce
+                  platform selling handcrafted goods.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">UI/UX</span>
+                  <span class="project-tag">Web Design</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-link">
+                  View Project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80"
+                  alt="Social Media Campaign"
+                />
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Social Media Campaign</h3>
+                <p class="project-description">
+                  Series of eye-catching social media graphics for a product
+                  launch campaign.
+                </p>
+                <div class="project-tags">
+                  <span class="project-tag">Social Media</span>
+                  <span class="project-tag">Graphics</span>
+                </div>
+              </div>
+              <div class="project-footer">
+                <a href="#" class="project-link">
+                  View Project
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    ></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Connect With Me</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-form-container">
+              <h3 class="contact-form-title">Send Me a Message</h3>
+              <form id="contactForm" onsubmit="return false;">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-input"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-input"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    id="message"
+                    class="form-textarea"
+                    placeholder="Hello, I'd like to talk about..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%">
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            <div class="contact-info-container">
+              <div>
+                <h3 class="contact-info-title">Contact Information</h3>
+
+                <div class="contact-info-item">
+                  <span class="contact-info-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      <path
+                        d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                      ></path>
+                    </svg>
+                  </span>
+                  <a href="mailto:sharankataria38@gmail.com"
+                    >sharankataria38@gmail.com</a
+                  >
+                </div>
+
+                <div class="contact-info-item">
+                  <span class="contact-info-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span>In Progress</span>
+                </div>
+
+                <h4 class="social-links-title">Follow Me</h4>
+                <div class="social-links">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        width="20"
+                        height="20"
+                        x="2"
+                        y="2"
+                        rx="5"
+                        ry="5"
+                      ></rect>
+                      <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                      ></path>
+                      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                      ></path>
+                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                      ></path>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-link"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect width="4" height="12" x="2" y="9"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="download-cv">
+                <a
+                  href="/path-to-cv.pdf"
+                  target="_blank"
+                  class="btn-primary"
+                  style="
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.5rem;
+                  "
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" x2="12" y1="15" y2="3"></line>
+                  </svg>
+                  Download CV
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p class="footer-copyright">
+          Copyright &copy; <span id="currentYear">2023</span> Sharan Kataria.
+          Made by Sharan Kataria.
+        </p>
+
+        <div class="footer-social">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+              ></path>
+              <path d="M9 18c-4.51 2-5-2-7-2"></path>
+            </svg>
+          </a>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Simple JavaScript for mobile menu toggle and current year -->
+    <script>
+      // Update current year in footer
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      // Mobile menu toggle
+      function toggleMenu() {
+        const mobileMenu = document.getElementById("mobileMenu");
+        mobileMenu.classList.toggle("open");
+      }
+
+      function closeMenu() {
+        const mobileMenu = document.getElementById("mobileMenu");
+        mobileMenu.classList.remove("open");
+      }
+
+      // Add scroll event to change header style
+      window.addEventListener("scroll", function () {
+        const header = document.getElementById("header");
+        if (window.scrollY > 20) {
+          header.style.padding = "0.75rem 0";
+          header.style.boxShadow =
+            "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)";
+        } else {
+          header.style.padding = "1.25rem 0";
+          header.style.boxShadow = "none";
+        }
+      });
+
+      const tabLinks = document.querySelectorAll('.tab-link');
+const tabContents = document.querySelectorAll('.tab-content');
+
+tabLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        tabLinks.forEach(link => link.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+        
+        const tab = link.dataset.tab;
+        document.getElementById(tab).classList.add('active');
+        link.classList.add('active');
+    });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute("href").substring(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 51, // Adjust according to navbar height
+                behavior: "smooth"
+            });
+        }
+    });
+});
+
+
+    </script>
+  </body>
+</html>
